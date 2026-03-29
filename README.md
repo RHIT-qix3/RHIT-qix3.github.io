@@ -1,2 +1,3 @@
 # RHIT-qix3.github.io
-Real HW2
+Visit: http://rhit-qix3.github.io/
+
