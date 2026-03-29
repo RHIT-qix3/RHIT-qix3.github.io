@@ -113,11 +113,20 @@ h2 {
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-.project img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    background: #ddd;
+.project-images {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  background: #f8f8f8;
+  overflow-x: auto;
+}
+
+.project-images img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
 }
 .project-info {
     padding: 1rem;
